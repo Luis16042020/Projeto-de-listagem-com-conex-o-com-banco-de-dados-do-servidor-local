@@ -1,0 +1,9 @@
+CREATE TABLE usuário(
+idusuario INT(11) NOT NULL AUTO_INCREMENT,
+nome VARCHAR(45) NOT NULL,
+senha VARCHAR(45) NOT NULL,
+CONSTRAINT pk_id_usuario PRIMARY KEY (idusuario)
+); 
+
+INSERT INTO usuário (nome, senha)
+VALUES (‘luis’, ‘123’);

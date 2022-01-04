@@ -1,0 +1,6 @@
+CREATE TABLE amigo ( 
+ idamigo INT NOT NULL AUTO_INCREMENT, 
+ nome VARCHAR(45) NOT NULL, 
+ apelido VARCHAR(45) NOT NULL, 
+ email VARCHAR(45) NOT NULL, 
+CONSTRAINT pk_id_amigo PRIMARY KEY (idamigo)); 
